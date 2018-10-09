@@ -1,0 +1,6 @@
+test_file = open('E:\\Python\\myfile.txt', 'a')
+your_word = input('Enter your word: ')
+test_file.write(your_word)
+test_file.close()
+test_file = open('E:\\Python\\myfile.txt')
+print(test_file.read())
